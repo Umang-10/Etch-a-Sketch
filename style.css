@@ -1,0 +1,108 @@
+h1 {
+    font-size: 4em;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.932);
+    text-decoration: solid;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#container {
+    display: grid;
+    width: 650px;
+    height: 650px;
+}
+
+.grid-item {
+    margin: 0.5px;
+}
+
+.buttons {
+    border: 2px solid rgba(51, 51, 51, 0.932);
+    height: 50px;
+    align-items: center;
+    background-color: whitesmoke;
+    color: rgba(51, 51, 51, 0.932);
+    margin: 5px;
+    font-size: 16px;
+    width: 200px;
+    text-decoration: solid;
+}
+
+.buttons:hover {
+    background-color: rgba(51, 51, 51, 0.932);
+    color: whitesmoke;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: solid;
+}
+
+footer {
+    font-size: 1.25em;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-buttons {
+    text-decoration: none;
+    height: 50px;
+    color: white;
+    width: 100px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 17px;
+    text-decoration: solid;
+}
+
+#github {
+    border: 2px solid #161B22;
+    margin: 10px;
+    color: #161B22;
+    background-color: whitesmoke;
+}
+
+#twitter {
+    border: 2px solid #1DA1F2;
+    background-color: whitesmoke;
+    margin: 10px;
+    color: #1DA1F2;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#github:link:visited {
+    color: #161B22;
+}
+
+#twitter:hover {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+#github:hover {
+    background-color: #161B22;
+    color: white;
+}
